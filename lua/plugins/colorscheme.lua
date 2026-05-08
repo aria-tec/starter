@@ -1,16 +1,13 @@
 return {
   -- add gruvbox
   {
-    "ellisonleao/gruvbox.nvim",
+    "folke/tokyonight.nvim",
     opts = {
-      italic = {
-        strings = false,
-        emphasis = false,
-        comments = false,
-        operators = false,
-        folds = false,
+      transparent = true,
+      styles = {
+        sidebars = "transparent",
+        floats = "transparent",
       },
-      contrast = "soft",
     },
   },
 
@@ -18,7 +15,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox",
+      colorscheme = "tokyonight",
     },
   },
 }
