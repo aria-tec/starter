@@ -5,6 +5,7 @@ return {
       -- Kita menyisipkan (merge) config intelephense ke dalam tabel opts.servers yang sudah ada
       opts.servers = opts.servers or {}
       opts.servers.intelephense = {
+        filetypes = { "php", "blade" },
         settings = {
           intelephense = {
             files = {
